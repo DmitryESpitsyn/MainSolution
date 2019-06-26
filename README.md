@@ -11,12 +11,12 @@ This script creates all jobs that you might need for SQL Instance (as standard)
 
   Version Updates:
 	14.06.2019: | Added by Dmitry Spitsyn
-			# Creates a Database Mail account holding information about an SMTP account
+	- Creates a Database Mail account holding information about an SMTP account
 	05.06.2019: | Added by Dmitry Spitsyn
-			# Apply Prefix as variable for environment
+		- Apply Prefix as variable for environment
 	30.04.2019: | Added by Dmitry Spitsyn
-			# Extend check existing modules and prove number of Solution Version
-			# Step created to exclude a situation where a database backup would fail, 
+		- Extend check existing modules and prove number of Solution Version
+		- Step created to exclude a situation where a database backup would fail, 
       # for example due to a network error - specifically "Operating system error 59(An unexpected network error occurred.)"
 			# The solution identify only those database backups that failed and retry back them up again
 			# Extend and sort all backup jobs parameters
